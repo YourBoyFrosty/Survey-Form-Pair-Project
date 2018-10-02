@@ -1,8 +1,20 @@
-/* --- LINKS --- */
+
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
+body{
+    background-color: blueviolet;
+}
 /* --- HEADER --- */
-
+header h1{
+    display: flex;
+    justify-content: center;
+    color: snow;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+}
 /* --- MAIN --- */
-
+main p{
+    color: snow;
+    font-size: 20px;
+}
 /* --- FOOTER --- */
