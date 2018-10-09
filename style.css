@@ -36,7 +36,6 @@ main div {
 }
 .rowTab {
     color: dimgray;
-    background-color: darkgray;
     display: flex;
     justify-content: center;
 }
