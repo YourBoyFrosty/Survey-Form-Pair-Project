@@ -34,4 +34,10 @@ main div {
     color: dimgray;
     background-color: darkgrey;
 }
+.rowTab {
+    color: dimgray;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+}
 /* --- FOOTER --- */
