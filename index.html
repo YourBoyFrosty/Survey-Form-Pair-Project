@@ -70,9 +70,61 @@
                         <li class="radio">
                             <label>Definately<input name="radio-buttons" value="1" type="radio" class="userRatings"></label>
                         </li>
+                        <li class="radio">
+                            <label>Maybe<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label>
+                        </li>
+                        <li class="radio">
+                            <label>Not sure<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
+            <div class="rowTab">
+                <div class="labels">
+                  <label for="most-like">What do you like most with this site?</label>
+                </div>
+                <div class="rightTab">
+                  <select id="most-like" name="mostLike" class="dropdown">
+                <option disabled selected value>Select an option</option>
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>
+                <option value="openSource">Open Source</option>
+              </select>
+                </div>
+              </div>
+              <div class="rowTab">
+                <div class="labels">
+                  <label for="preferences">Things that should be improved in the future<br>(Check all that apply): </label>
+                </div>
+                <div class="rightTab">
+                  <ul id="preferences" style="list-style: none;">
+                    <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end Projects</label></li>
+                    <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end Projects</li>
+                    <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Data Visualization</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Challenges</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Open Source Community</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">Gitter help rooms</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">Videos</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">City Meetups</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">Wiki</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">Forum</label></li>
+                    <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">Additional Courses</label></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="rowTab">
+                <div class="labels">
+                  <label for="comments">Any Comments or Suggestions?</label>
+                </div>
+                <div class="rightTab">
+                  <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+              </div>
+              <button id="submit" type="submit">Submit</button>
+            </form>
+          </div>
         </form>
     </main>
 
