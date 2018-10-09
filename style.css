@@ -4,13 +4,14 @@
 body{
     background-color: black;
     min-width: 320px;
+    font-family: 'Anton', sans-serif;
 }
 /* --- HEADER --- */
 header h1{
     display: flex;
     justify-content: center;
     color: snow;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Anton', sans-serif;
     font-size: 60px;
 }
 /* --- MAIN --- */
@@ -43,8 +44,9 @@ main div {
 }
 .rightTab {
     display: block;
-    
-}
+    padding: 10px;
+
+}   
 
     
 /* --- FOOTER --- */
