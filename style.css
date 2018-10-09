@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 
 body{
-    background-color: blueviolet;
+    background-color: black;
     min-width: 320px;
 }
 /* --- HEADER --- */
@@ -18,6 +18,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: blueviolet;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 main p{
@@ -39,7 +42,9 @@ main div {
     background-color: darkgrey;
 }
 .rightTab {
-    display: flex;
-    justify-content: center;
+    display: block;
+    
 }
+
+    
 /* --- FOOTER --- */
