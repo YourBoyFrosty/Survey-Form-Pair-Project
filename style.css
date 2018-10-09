@@ -3,6 +3,7 @@
 
 body{
     background-color: blueviolet;
+    min-width: 320px;
 }
 /* --- HEADER --- */
 header h1{
@@ -16,5 +17,21 @@ header h1{
 main p{
     color: snow;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+main div {
+    color: snow;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.input-field {
+    color: dimgray;
+    background-color: darkgrey;
+}
+.dropdown {
+    color: dimgray;
+    background-color: darkgrey;
 }
 /* --- FOOTER --- */
