@@ -37,16 +37,30 @@ main div {
 .input-field {
     color: dimgray;
     background-color: darkgrey;
+    border: solid 3px;
 }
 .dropdown {
     color: dimgray;
     background-color: darkgrey;
+    border: solid 3px;
 }
 .rightTab {
     display: block;
-    padding: 10px;
-
 }   
 
-    
+.labels {
+    margin-top: 50px;
+}
+
+#comments {
+    margin: 35px;
+    width: 80%;
+    border: solid 3px;
+}
+
+#submit {
+    margin-left: 150px;
+    width: 35%;
+}
+
 /* --- FOOTER --- */
